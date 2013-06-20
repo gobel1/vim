@@ -1,3 +1,4 @@
 alias vi='vim'
-alias vip='vi +Project'
+alias vid='vi -u ~/.vimrc-dev'
+alias vip='vi -u ~/.vimrc-dev +Project'
 [[ $(ps -ef |awk "\$2 == $(ps -ef | awk "\$2 == $$ {print \$3}") {print \$8}" |grep vi) ]]&& alias :q='exit' || alias :q='echo "Not in vi{m} !"';

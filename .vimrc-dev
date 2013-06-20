@@ -11,7 +11,7 @@ runtime! debian.vim
 "set, it will be set to 'nocompatible'.
 
 "" Include configuration
-for i in [ "functions","behavior","file","fmap","projet","macro" ] 
+for i in [ "functions","behavior","file","kmap","projet","macro" ] 
     let f = expand($HOME.'/.vim/.'.i.'.vimrc')
     if filereadable(f)
         "let c = expand('Sourcing file : '.f)

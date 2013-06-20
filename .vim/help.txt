@@ -36,3 +36,6 @@ VIM Alias
 Project Alias :
 :Q : Quit All Buffer
 :W : write w/ sudo via tee
+
+Terminal Alias :
+:q : Quit shell session if launched by vim
