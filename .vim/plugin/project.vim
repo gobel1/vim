@@ -12,6 +12,14 @@ if exists('loaded_project') || &cp
 endif
 let loaded_project=1
 
+function! Motd()
+    setlocal buftype=nofile bufhidden=wipe nobuflisted noswapfile nowrap
+    setlocal nonumber
+    silent read $HOME/.vim/motd
+endfunction
+
+"call Motd()
+
 function! s:Project(filename) " <<<
     " Initialization <<<
     if exists("g:proj_running")

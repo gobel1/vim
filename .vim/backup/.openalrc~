@@ -1,0 +1,2 @@
+(define devices '(alsa))
+(define alsa-device "pulse")

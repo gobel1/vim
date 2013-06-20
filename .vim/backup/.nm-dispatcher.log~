@@ -1,0 +1,23 @@
+01/26/13 03:55:07 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: mrs
+01/26/13 14:24:17 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: mrs
+01/27/13 16:46:25 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: mrs
+01/28/13 17:37:43 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: mrs
+01/28/13 22:00:43 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: mrs
+01/28/13 22:26:22 /etc/NetworkManager/dispatcher.d/99ssh, IF: eth0 SSHCONFIG: mrs
+01/29/13 00:15:41 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: mrs
+01/29/13 19:11:12 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: mrs
+01/30/13 08:28:47 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: mrs
+01/30/13 19:03:07 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: mrs
+01/31/13 02:12:58 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: mrs
+01/31/13 08:32:08 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: mrs
+01/31/13 08:32:38 /etc/NetworkManager/dispatcher.d/99ssh, IF: eth0 SSHCONFIG: mrs
+02/01/13 08:26:03 /etc/NetworkManager/dispatcher.d/99ssh, IF: eth0 SSHCONFIG: mrs
+02/01/13 08:26:24 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: ext
+02/01/13 21:31:10 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: lct
+02/01/13 22:32:41 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: ext
+02/02/13 00:06:10 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: ext
+02/02/13 01:38:09 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: ext
+gw hw address : 00:07:cb:4c:19:7c
+<incomplete>
+02/02/13 01:42:30 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: ext
+02/02/13 01:56:16 /etc/NetworkManager/dispatcher.d/99ssh, IF: wlan0 SSHCONFIG: lct

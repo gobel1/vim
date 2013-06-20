@@ -1,0 +1,14 @@
+backup-*-log
+unison.log
+.bin
+dwhelper
+Vidéos
+Musique
+Modèles
+Public
+Téléchargements
+Documents/UP
+Documents/DataRescue
+VirtualBox\ VMs
+workspace
+.cache/chromium/Cache

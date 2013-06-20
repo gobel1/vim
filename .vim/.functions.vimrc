@@ -1,4 +1,6 @@
 ".functions.vimrc
+
+"" Shell
 command! -complete=shellcmd -nargs=+ Shell call s:RunShellCommand(<q-args>)
 function! s:RunShellCommand(cmdline)
   echo a:cmdline
@@ -19,6 +21,7 @@ function! s:RunShellCommand(cmdline)
   1
 endfunction
 
+"" SuperTab
 function! SmartTab()
     if strpart(getline('.'), 0, col('.') - 1) =~ '^\s*$'
         return "\<Tab>"
@@ -32,3 +35,31 @@ function! SmartTab()
         endif
     endif
 endfunction
+
+"" Reminder
+let g:helpDisplay = 0
+
+function! Reminder()
+    if g:helpDisplay == 0
+        tabnew
+        silent! topleft vertical 60 split +buffer
+        setlocal buftype=nofile bufhidden=wipe nobuflisted noswapfile nowrap
+        setlocal nonumber
+        file reminder
+        let g:helpDisplay = 1
+        silent read $HOME/.vim/help.txt
+        highlight Memory ctermfg=white ctermbg=blue
+        3match Memory /^.\+\ \+:/
+    else
+        tabclose
+        "bdelete
+        let g:helpDisplay = 0
+    endif
+endfunction
+
+if !hasmapto('<Plug>Reminder')
+    map <unique> <F10> <Plug>Reminder
+    imap <unique> <F10> <Plug>Reminder
+endif
+
+nnoremap <unique> <silent> <script> <Plug>Reminder :call Reminder()<cr>
