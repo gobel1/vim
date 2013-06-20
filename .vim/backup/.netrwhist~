@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/logout/projets/mutt/.mutt/accounts'
-let g:netrw_dirhist_2='/home/logout/.ssh'
-let g:netrw_dirhist_3='/home/logout/gbot/gbot/spiders'
-let g:netrw_dirhist_4='/home/logout'
-let g:netrw_dirhist_5='/home/logout/gbot'
-let g:netrw_dirhist_6='/home/logout/gbot/gbot'
-let g:netrw_dirhist_7='/home/logout/gbot'

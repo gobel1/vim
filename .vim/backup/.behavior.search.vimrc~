@@ -1,8 +1,0 @@
-"" Search
-set smartcase           " Ignore case if search pattern is all lowercase, case-sensitive otherwise
-"set ignorecase		    " Do case insensitive matching
-"set noignorecase
-set infercase
-
-set incsearch           " Incremental search
-set hlsearch            " Hilights search terms
