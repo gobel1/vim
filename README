@@ -1,15 +1,16 @@
 #README
 
 Install :
-#!/bin/bash
-apt-get update && apt-get install vim vim-addon-manager vim-haproxy vim-latexsuite vim-puppet -y
+apt-get update && apt-get install \
+        vim vim-addon-manager vim-haproxy vim-latexsuite vim-puppet exuberant-ctags -y
 cd vim
-cat bash_aliases_vim >> ~/.bash_aliases
+cat bash_aliases_vim >> ~/.bash_aliases && . ~/.bashrc
 cp -rp .vim* ~/
+cd
 
 Run :
-$ vid
-or
-$ vip
+vip
+
+vid
 
 And press F10 for Help
