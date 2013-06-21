@@ -43,16 +43,16 @@ function! Reminder()
     if g:helpDisplay == 0
         tabnew
         silent! topleft vertical 60 split +buffer
-        setlocal buftype=nofile bufhidden=wipe nobuflisted noswapfile nowrap
         setlocal nonumber
-        file reminder
-        let g:helpDisplay = 1
+        setlocal buftype=nofile bufhidden=wipe nobuflisted noswapfile nowrap
+        file $HOME/.vim/help.txt
         silent read $HOME/.vim/help.txt
         highlight Memory ctermfg=white ctermbg=blue
         3match Memory /^.\+\ \+:/
+        "bdelete
+        let g:helpDisplay = 1
     else
         tabclose
-        "bdelete
         let g:helpDisplay = 0
     endif
 endfunction
