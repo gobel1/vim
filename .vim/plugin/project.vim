@@ -18,9 +18,10 @@ function! Motd()
     silent read $HOME/.vim/motd
 endfunction
 
-"call Motd()
-
 function! s:Project(filename) " <<<
+
+    call Motd()
+
     " Initialization <<<
     if exists("g:proj_running")
         if strlen(a:filename) != 0
