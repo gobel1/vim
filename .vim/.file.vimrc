@@ -37,6 +37,8 @@ if has("autocmd")
         autocmd BufNewFile,BufRead PKGBUILD setlocal syntax=sh
         " BASH
         autocmd BufNewFile,BufRead .bash* setlocal syntax=sh
+        " PUPPET
+        autocmd BufNewFile,BufRead .pp setlocal filetype=puppet
         " Templates
         autocmd BufNewFile *.html,*.phtml* 0read ~/.vim/templates/xhtml.html 
         autocmd BufNewFile *.pl,*.perl 0read ~/.vim/templates/perl.pl
