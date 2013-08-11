@@ -16,12 +16,14 @@ function! Motd()
     setlocal buftype=nofile bufhidden=wipe nobuflisted noswapfile nowrap
     setlocal nonumber
     silent read $HOME/.vim/motd
+    "file motd
 endfunction
+
 
 function! s:Project(filename) " <<<
 
     call Motd()
-
+    
     " Initialization <<<
     if exists("g:proj_running")
         if strlen(a:filename) != 0
